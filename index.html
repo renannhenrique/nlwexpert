@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <title>NLW Expert | RocketSeat</title>
+
+        <meta name="author" content="Renan"/>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="robots" content="index, follow"/>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+        <link rel="shortcut icon" href=""/>
+    </head>
+
+    <body>
+
+        <main class="principal">
+
+            <header>
+                <img src="https://gist.githubusercontent.com/maykbrito/f47569e32fb2b21f2ecc9f4c035c141f/raw/a45997404564112d7596fbb1b9cad5de5521927e/logo.svg" alt="Logo NLW" title="Evento NLW"/>
+                <h1>Teste seus conhecimentos</h1>
+            </header>
+            
+            <!--Só para inicir o contador no CSS-->
+            <div id="quiz"></div>
+
+            <!--Div a qual está sendo mostrada os elemento do template-->
+            <div id="j-quiz"></div>
+
+            <!--Tag template diz para o HTML que não quero que apareça-->
+            <template>
+                <div class="quiz-item">
+                    <h3>Pergunta 1</h3>
+
+                    <dl>
+                        <dt>
+                        <input type="radio" value="0" name="item">
+                            <span>
+                                Resposta A
+                            </span>
+                        </dt>
+                    
+                    </dl>
+
+                </div><!--Fim quiz-item-->
+            </template>
+        </main>
+
+            <div id="acertos">
+                <strong>Acertos</strong>
+                <span>0/10</span>
+            </div>
+        
+
+        <script type="text/javascript" src="assets/js/index.js"></script>
+    </body>
+</html>
