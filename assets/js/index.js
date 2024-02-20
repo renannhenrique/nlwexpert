@@ -1,4 +1,5 @@
 
+// Lista de perguntas
 const perguntas = [
     {
         pergunta: "Como declarar uma variável em JavaScript?",
